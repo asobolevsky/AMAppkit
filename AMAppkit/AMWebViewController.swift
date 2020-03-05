@@ -106,7 +106,7 @@ open class AMWebViewController: AMBaseViewController, WKNavigationDelegate {
 
 public extension WKWebView {
     private struct key {
-        static let scale = unsafeBitCast(#selector(getter: UIWebView.scalesPageToFit), to: UnsafeRawPointer.self)
+        static let scale = unsafeBitCast(#selector(getter: WKWebView.scalesPageToFit), to: UnsafeRawPointer.self)
     }
     private var sourceOfUserScript: String {
         return "(function(){\n" +
@@ -127,7 +127,7 @@ public extension WKWebView {
             "    meta.setAttribute('content', 'width=device-width');\n" +
         "})();\n"
     }
-    var scalesPageToFit: Bool {
+    @objc var scalesPageToFit: Bool {
         get {
             return objc_getAssociatedObject(self, key.scale) != nil
         }
