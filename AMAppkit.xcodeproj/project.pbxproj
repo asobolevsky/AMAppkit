@@ -219,8 +219,6 @@
 		D7FCA60C1FA246370005DAEB /* NSString+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCA5FC1FA246370005DAEB /* NSString+SSToolkitAdditions.m */; };
 		D7FCA60D1FA246370005DAEB /* NSArray+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCA5FD1FA246370005DAEB /* NSArray+Validation.m */; };
 		D7FCA60E1FA246370005DAEB /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCA5FE1FA246370005DAEB /* NSObject+ClassName.m */; };
-		D7FCA61B1FA246C10005DAEB /* AMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCA6131FA246C00005DAEB /* AMLocationManager.m */; };
-		D7FCA61D1FA246C10005DAEB /* AMLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FCA6151FA246C10005DAEB /* AMLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7FCA61E1FA246C10005DAEB /* AMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FCA6161FA246C10005DAEB /* AMUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7FCA61F1FA246C10005DAEB /* AMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FCA6171FA246C10005DAEB /* AMUtils.m */; };
 		D7FCA6641FA248C60005DAEB /* AMAppkitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FCA6631FA248B50005DAEB /* AMAppkitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -466,8 +464,6 @@
 		D7FCA5FC1FA246370005DAEB /* NSString+SSToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSToolkitAdditions.m"; sourceTree = "<group>"; };
 		D7FCA5FD1FA246370005DAEB /* NSArray+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Validation.m"; sourceTree = "<group>"; };
 		D7FCA5FE1FA246370005DAEB /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
-		D7FCA6131FA246C00005DAEB /* AMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLocationManager.m; sourceTree = "<group>"; };
-		D7FCA6151FA246C10005DAEB /* AMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLocationManager.h; sourceTree = "<group>"; };
 		D7FCA6161FA246C10005DAEB /* AMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMUtils.h; sourceTree = "<group>"; };
 		D7FCA6171FA246C10005DAEB /* AMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMUtils.m; sourceTree = "<group>"; };
 		D7FCA6631FA248B50005DAEB /* AMAppkitDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAppkitDefines.h; sourceTree = "<group>"; };
@@ -786,8 +782,6 @@
 		D7FCA60F1FA246A80005DAEB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				D7FCA6151FA246C10005DAEB /* AMLocationManager.h */,
-				D7FCA6131FA246C00005DAEB /* AMLocationManager.m */,
 				D7FCA6161FA246C10005DAEB /* AMUtils.h */,
 				D7FCA6171FA246C10005DAEB /* AMUtils.m */,
 				D7CB5CE51FE5BBD900341E60 /* AMAlert.swift */,
@@ -924,7 +918,6 @@
 				D73EE4912258F06200D9FD7A /* UIButton+WebCache.h in Headers */,
 				D7FCA6091FA246370005DAEB /* NSString+Validation.h in Headers */,
 				D73EE4802258F06200D9FD7A /* SDImageCoder.h in Headers */,
-				D7FCA61D1FA246C10005DAEB /* AMLocationManager.h in Headers */,
 				D73EE4972258F06200D9FD7A /* SDWebImageCompat.h in Headers */,
 				D7FCA5D11FA2441F0005DAEB /* UIView+Frame.h in Headers */,
 				592061BD1E3B7F0F0066BE0D /* AMInputHelper.h in Headers */,
@@ -1082,6 +1075,7 @@
 				TargetAttributes = {
 					592060E71E38E26C0066BE0D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8NA98GZ448;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -1206,7 +1200,6 @@
 				D73EE4742258F06200D9FD7A /* SDDiskCache.m in Sources */,
 				D7949C4A1FCDE44A000D2C4F /* AMContainerCell.swift in Sources */,
 				D7949C2D1FCB6112000D2C4F /* AMPagingLoader.swift in Sources */,
-				D7FCA61B1FA246C10005DAEB /* AMLocationManager.m in Sources */,
 				D7F324AF1FDA9AB80038F1C4 /* AMOptionCell.swift in Sources */,
 				D730FD9E1FD6EC66002D9F61 /* AMSeparatorView.swift in Sources */,
 				D73EE4AE2258F06200D9FD7A /* SDWebImageDownloaderRequestModifier.m in Sources */,

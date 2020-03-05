@@ -20,7 +20,6 @@ FOUNDATION_EXPORT const unsigned char AMAppkitVersionString[];
 
 //tools
 #import <AMAppkit/AMUtils.h>
-#import <AMAppkit/AMLocationManager.h>
 
 #import <AMAppkit/UIImageView+WebCache.h>
 #import <AMAppkit/UIButton+WebCache.h>
